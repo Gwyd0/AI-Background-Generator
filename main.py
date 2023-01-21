@@ -32,7 +32,12 @@ def genImage(imageDirectory, prompt, size):  # gens an image using openai dalle 
     print("> Generated image.")
     image = Image.open(imageDirectory)
     if size == "p":
-        cropped_img = image.crop((0, 0, 576, 1024))
+        resized_img = image.resize((1920, 1920), resample=Image.BOX)
+        cropped_img = resized_img.crop((0, 0, 1024, 1920))
+        cropped_img.show()
+    elif size == "l":
+        resized_img = image.resize((1920, 1920), resample=Image.BOX)
+        cropped_img = resized_img.crop((0, 0, 1920, 1024))
         cropped_img.show()
     else:
         image.show()
