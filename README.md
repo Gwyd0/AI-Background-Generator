@@ -19,10 +19,13 @@ These are cherry-picked, so don't expect every single one to be this good.
 <img src="https://github.com/Gwyd0/AI-Background-Generator/blob/main/photos/photo-1-save.png?raw=true" alt="drawing" width="500"/>
 <img src="https://github.com/Gwyd0/AI-Background-Generator/blob/main/photos/photo-2-save.png?raw=true" alt="drawing" width="500"/>
 <img src="https://github.com/Gwyd0/AI-Background-Generator/blob/main/photos/photo-3-save.png?raw=true" alt="drawing" width="500"/>
+
 ## Nature Landscapes
 <img src="https://github.com/Gwyd0/AI-Background-Generator/blob/main/photos/image-1.png?raw=true" alt="drawing" width="500"/>
+
 ## Cursed Anime
 <img src="https://github.com/Gwyd0/AI-Background-Generator/blob/main/photos/photo-5-save.png?raw=true" alt="drawing" width="500"/>
+
 # How to run
 
 for starters you need an openai api key(its free to make an account and get one with limited uses).
